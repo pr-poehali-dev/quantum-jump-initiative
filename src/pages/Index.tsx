@@ -38,7 +38,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
           <div className="flex items-center">
             <div className="font-display font-bold text-2xl tracking-tighter bg-gradient-to-r from-white via-accent to-accent/80 bg-clip-text text-transparent">
-              AgentForge
+              BizVoice AI
             </div>
           </div>
           <nav className="hidden md:flex gap-10 text-sm font-medium">
@@ -78,19 +78,18 @@ const Index = () => {
             >
               <div className="mb-8 inline-block">
                 <span className="text-xs font-medium tracking-widest text-accent/80 uppercase">
-                  AI-инфраструктура нового поколения
+                  AI-платформа для бизнес-контента
                 </span>
               </div>
               <h1 className="text-6xl lg:text-7xl font-display font-black leading-tight mb-8 tracking-tighter">
                 <span className="bg-gradient-to-br from-white via-white to-accent/40 bg-clip-text text-transparent">
-                  Создавай. Запускай.
+                  Весь контент.
                 </span>
                 <br />
-                <span className="text-accent">Автоматизируй.</span>
+                <span className="text-accent">Всегда доступен.</span>
               </h1>
               <p className="text-xl text-white/80 leading-relaxed mb-10 max-w-xl font-light">
-                AgentForge позволяет создавать, разворачивать и масштабировать умных AI-агентов.
-                От идеи до продакшена за минуты, а не месяцы.
+                Персонализируйте озвучку, управляйте библиотекой контента и делайте информацию доступной для каждого сотрудника в удобном формате.
               </p>
               <div className="flex gap-4 mb-12 flex-col sm:flex-row">
                 <button className="group px-8 py-4 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center">
@@ -140,7 +139,7 @@ const Index = () => {
             <span className="text-xs font-medium tracking-widest text-accent/60 uppercase">Возможности</span>
             <h2 className="text-5xl lg:text-6xl font-display font-black tracking-tighter mt-4 mb-6">
               <span className="bg-gradient-to-r from-white via-white to-accent/40 bg-clip-text text-transparent">
-                Суперсилы встроены
+                Всё для доступности контента
               </span>
             </h2>
           </div>
@@ -149,33 +148,33 @@ const Index = () => {
             {[
               {
                 icon: Zap,
-                title: "Молниеносный деплой",
-                desc: "Развертывание в продакшен одним кликом без настройки",
+                title: "Мгновенный доступ",
+                desc: "Весь контент в одном месте — документы, презентации, обучающие материалы",
               },
               {
                 icon: Cpu,
-                title: "Умный AI-движок",
-                desc: "Продвинутые возможности рассуждения, которые учатся и адаптируются",
+                title: "Умная озвучка AI",
+                desc: "Любой текст превращается в естественную речь на вашем языке",
               },
               {
                 icon: TrendingUp,
-                title: "Автомасштабирование",
-                desc: "Автоматическое масштабирование ресурсов на основе нагрузки",
+                title: "Персонализация голосов",
+                desc: "Выбирайте озвучку под задачи — от презентаций до обучения",
               },
               {
                 icon: Lock,
-                title: "Корпоративная безопасность",
-                desc: "Банковское шифрование и соответствие SOC2, GDPR, HIPAA",
+                title: "Безопасность данных",
+                desc: "Корпоративное шифрование и соответствие стандартам GDPR",
               },
               {
                 icon: Settings,
-                title: "Гибкие сценарии",
-                desc: "Создавайте сложные цепочки автоматизации в визуальном редакторе",
+                title: "Гибкая настройка",
+                desc: "Адаптируйте библиотеку под структуру вашей компании",
               },
               {
                 icon: Cloud,
-                title: "Мультиоблачность",
-                desc: "Разворачивайте где угодно - AWS, Azure, GCP или своя инфраструктура",
+                title: "Облачное хранилище",
+                desc: "Доступ к контенту с любого устройства в любое время",
               },
             ].map((item, i) => {
               const Icon = item.icon;
