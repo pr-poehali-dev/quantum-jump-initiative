@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Zap, Lock, TrendingUp, Cpu, Settings, Cloud, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const [visibleSections, setVisibleSections] = useState<Record<string, boolean>>({});
@@ -92,10 +93,10 @@ const Index = () => {
                 Персонализируйте озвучку, управляйте библиотекой контента и делайте информацию доступной для каждого сотрудника в удобном формате.
               </p>
               <div className="flex gap-4 mb-12 flex-col sm:flex-row">
-                <button className="group px-8 py-4 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center">
+                <Link to="/get-started" className="group px-8 py-4 bg-gradient-to-r from-accent to-accent/90 text-black rounded-full hover:shadow-2xl hover:shadow-accent/50 transition-all font-semibold text-lg flex items-center gap-3 justify-center">
                   Запустить сейчас
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition" />
-                </button>
+                </Link>
                 <button className="px-8 py-4 border border-accent/40 rounded-full hover:border-accent/70 hover:bg-accent/10 transition-all font-medium text-lg text-white">
                   Смотреть демо
                 </button>
